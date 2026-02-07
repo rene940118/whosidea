@@ -99,13 +99,19 @@ input[type="number"]{
   margin-top:12px;
 }
 
-@media (min-width:900px){
+@media (min-width: 768px){
+  body{
+    display:flex;
+    justify-content:center;
+  }
+
   .container{
-    width:680px;
-    margin:40px auto;
-    border-radius:12px;
+    width: 680px;
+    margin: 40px 0;
+    border-radius: 12px;
   }
 }
+
 </style>
 </head>
 
@@ -115,7 +121,7 @@ input[type="number"]{
   <div class="subtitle">專業報價系統</div>
 
   <div class="section">
-    <label>1. 產品類型</label>
+    <label>1. 衣服款式</label>
     <select id="product">
       <option value="0">請選擇</option>
       <option value="145">短袖棉T</option>
